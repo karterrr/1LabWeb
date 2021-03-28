@@ -68,7 +68,6 @@ h3{
     min-width: 800px;
     width: 45%;
     min-height: 800px;
-    max-height: 50%;
     border: 10px solid rgb(99, 2, 99);
     background: rgba(99, 2, 99, 50%);
     margin: 100px auto;
@@ -146,10 +145,10 @@ h3{
 
 
 .home {
+    overflow: auto;
     width: 100vw;
-    max-height: 100vh;
+    min-height: 100vw;
     background: linear-gradient(to bottom, #1b0017 40%, #3d003a );
-    overflow: hidden;
     position: relative;
     z-index: 2;
 }
