@@ -97,6 +97,7 @@ h3{
     display: flex;
     text-decoration: none;
     color: rgb(235, 102, 228);
+    font-family: 'Permanent marker';
     font-weight: lighter;
     border-right: 5px solid rgb(83, 3, 83);
     transition: background 0.7s ease;
@@ -147,6 +148,71 @@ h3{
     line-height: 25px;
 }
 
+.content2{
+    float: left;
+    height: 800px;
+    width: 50%;
+    padding: 20px;
+}
+
+.sidebar2{
+    float: right;
+    height: 800px;
+    padding: 20px;
+    width: 50%;
+}
+
+.container2{
+    min-width: 800px;
+    width: 45%;
+    height: 1200px;
+    min-height: 800px;
+    border: 10px solid rgb(99, 2, 99);
+    background: rgba(99, 2, 99, 50%);
+    margin: 100px auto;
+    position: relative;
+    z-index: 100;
+}
+
+
+.container2 h2{
+    font-family: 'Permanent Marker';
+    font-size: 50px;
+}
+
+
+
+
+.w3-container h3{
+    font-family: 'Play';
+    color: rgb(218, 174, 243);
+}
+
+.w3-container p{
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Play';
+    color: rgb(218, 174, 243);
+}
+
+.pic1, .pic3{
+    transition: background 0.7s ease;
+    padding-bottom: 30px;
+}
+
+.pic2{
+}
+
+.pic3{
+    padding-top: 56px;
+}
+
+.pic4{
+    
+}
+
+
+
 .content1  table{
     opacity: 0.7;
     border-collapse: collapse; 
@@ -175,7 +241,7 @@ h3{
 
 
 .home {
-    overflow: auto;
+    overflow: hidden;
     width: 100%;
     max-height: 100%;
     background: linear-gradient(to bottom, #1b0017 40%, #3d003a );
@@ -185,7 +251,6 @@ h3{
 
 
 .home_video{
-    padding-bottom: 56.25%;
 }
 
 .home video{
